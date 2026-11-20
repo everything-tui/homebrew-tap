@@ -1,25 +1,25 @@
 class BwTui < Formula
   desc "Terminal UI for Vaultwarden"
   homepage "https://github.com/everything-tui/bw-tui"
-  version "0.2.0"
+  version "0.2.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/everything-tui/bw-tui/releases/download/v0.2.0/bw-tui-aarch64-apple-darwin.tar.xz"
-      sha256 "694d4e451be10fa45d170ef51a80e3fc1c3fdfd2fdcd83dc8a4509435393c3d7"
+      url "https://github.com/everything-tui/bw-tui/releases/download/v0.2.1/bw-tui-aarch64-apple-darwin.tar.xz"
+      sha256 "6cb7ed6b58de139bf7dd66375d07c718b2355189b90142697139e87f46cce0b1"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/everything-tui/bw-tui/releases/download/v0.2.0/bw-tui-x86_64-apple-darwin.tar.xz"
-      sha256 "8dd1f287b5a111021457187a7fedd854b0489f391a19aa542e7b910e4636a908"
+      url "https://github.com/everything-tui/bw-tui/releases/download/v0.2.1/bw-tui-x86_64-apple-darwin.tar.xz"
+      sha256 "e4e761765a29914b7b82b5a020de43b8eb89bd6ee57528ac90b5b6aacd5d48b3"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/everything-tui/bw-tui/releases/download/v0.2.0/bw-tui-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "a130b294f00d3d7ae83b5dcfe231ff6373d565bc405402ad0e7bc54b16bc5a47"
+      url "https://github.com/everything-tui/bw-tui/releases/download/v0.2.1/bw-tui-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "707edbe5e43100f234c036a7d3d9371798b5b8bef105bf75cb12a1218f2c2a26"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/everything-tui/bw-tui/releases/download/v0.2.0/bw-tui-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "240509dd9348a45dbc4d2f17339a25b914fc04f0c748177871ae1e3f63db502c"
+      url "https://github.com/everything-tui/bw-tui/releases/download/v0.2.1/bw-tui-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "d1dafb1867078db1da215e8b20156fb1cd531b3b8747ce37cbb531596e3aedb1"
     end
   end
   license "MIT"
