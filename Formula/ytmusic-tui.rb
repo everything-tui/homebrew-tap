@@ -1,25 +1,25 @@
 class YtmusicTui < Formula
   desc "YouTube Music in the terminal — a polished media-player TUI"
   homepage "https://github.com/everything-tui/ytmusic-tui"
-  version "0.2.0"
+  version "0.3.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/everything-tui/ytmusic-tui/releases/download/v0.2.0/ytmusic-tui-aarch64-apple-darwin.tar.xz"
-      sha256 "703e9cca389625c56a5c69b760f2832c30f16cd4285ccb33aa7f856ade79d38d"
+      url "https://github.com/everything-tui/ytmusic-tui/releases/download/v0.3.0/ytmusic-tui-aarch64-apple-darwin.tar.xz"
+      sha256 "4d9b99d230d29a9d2d007da048e805b3413101e02c1f332611d26ae09175db3d"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/everything-tui/ytmusic-tui/releases/download/v0.2.0/ytmusic-tui-x86_64-apple-darwin.tar.xz"
-      sha256 "de0b5caf27515f5150dc12540317de217dd1314ae79f84e0f7432e1d8cb46581"
+      url "https://github.com/everything-tui/ytmusic-tui/releases/download/v0.3.0/ytmusic-tui-x86_64-apple-darwin.tar.xz"
+      sha256 "fbc2c3791462f9535b8583db57797894ef935259cc59f26363ed01af8867e777"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/everything-tui/ytmusic-tui/releases/download/v0.2.0/ytmusic-tui-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "c0f3028e2d662be5e2b7b7755ccfdf8e422318662c42a6b761efefade7d92909"
+      url "https://github.com/everything-tui/ytmusic-tui/releases/download/v0.3.0/ytmusic-tui-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "f2b921ff4d4b5719b47f0d42a322db27294bb6ae5a40cd0e0d53e5f855e6403c"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/everything-tui/ytmusic-tui/releases/download/v0.2.0/ytmusic-tui-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "688326dd7380aa21b3841df661321161aac071fe4c3c7d0af05db189a1cac16a"
+      url "https://github.com/everything-tui/ytmusic-tui/releases/download/v0.3.0/ytmusic-tui-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "e4963fecf725bfbda7b40b38257141e043d039badd5ce8edff90ce52d9caf261"
     end
   end
   license "MIT"
